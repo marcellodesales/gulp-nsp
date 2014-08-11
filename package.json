@@ -1,0 +1,37 @@
+{
+  "name"            : "gulp-nsp",
+  "description"     : "Gulp plugin for Node Security Project",
+
+  "version"         : "0.0.1",
+  "author"          : "Eric Baer <me@ericbaer.com>",
+
+  "homepage"        : "https://github.com/baer/gulp-nsp",
+  "bugs"            : "https://github.com/baer/gulp-nsp/issues",
+
+  "repository"      :"git://github.com/baer/gulp-nsp.git",
+  "private"         : false,
+
+  "dependencies": {
+    "nsp"                    : "0.2.1",
+    "through"                : "2.3.4"
+  },
+
+  "main":"./index.js",
+  "bin":"./index.js",
+
+  "engines":{
+    "node": ">= 0.4.0"
+  },
+
+  "license"         : "MIT",
+
+  "keywords": [
+    "gulpplugin",
+    "nsp",
+    "grunt",
+    "gruntplugin",
+    "package",
+    "package.json",
+    "security"
+  ]
+}
